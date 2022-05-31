@@ -15,11 +15,11 @@ public class GameBoard {
 //    }
 
     public static void printBoard(char[][] board){
-        System.out.println("     A   B   C");
+        System.out.println("     1   2   3");
         System.out.println("    ___ ___ ___");
-        System.out.println("1  |_" + board[0][0] + "_|_" + board[0][1] + "_|_" + board[0][2] + "_|");
-        System.out.println("2  |_" + board[1][0] + "_|_" + board[1][1] + "_|_" + board[1][2] + "_|");
-        System.out.println("3  |_" + board[2][0] + "_|_" + board[2][1] + "_|_" + board[2][2] + "_|");
+        System.out.println("A  |_" + board[0][0] + "_|_" + board[0][1] + "_|_" + board[0][2] + "_|");
+        System.out.println("B  |_" + board[1][0] + "_|_" + board[1][1] + "_|_" + board[1][2] + "_|");
+        System.out.println("C  |_" + board[2][0] + "_|_" + board[2][1] + "_|_" + board[2][2] + "_|");
     }
 
 
